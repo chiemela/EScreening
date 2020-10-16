@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">EScreening</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">FPNO</string>
+    <string name="nav_header_subtitle">Student Screening</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Welcome to FPNO eScreening</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_fragone">Academic Undertaking</string>
+    <string name="menu_fragtwo">Anti-Cult Undertaking</string>
+    <string name="menu_fragthree">Student Registration</string>
+    <string name="menu_fragfour">Course Registration</string>
+    <string name="menu_fragfive">HND Programme</string>
+    <string name="menu_fragsix">Bio Data</string>
+    <string name="menu_fragseven">Student Registration</string>
+    <string name="Registration">Registration</string>
+    <string name="Undertaking">Undertaking</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.escreening.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_one"
+        android:name="com.example.escreening.ui.fragone.FragOne"
+        android:label="@string/menu_fragone"
+        tools:layout="@layout/fragment_one" />
+
+    <fragment
+        android:id="@+id/nav_two"
+        android:name="com.example.escreening.ui.fragtwo.FragTwo"
+        android:label="@string/menu_fragtwo"
+        tools:layout="@layout/fragment_two" />
+
+    <fragment
+        android:id="@+id/nav_three"
+        android:name="com.example.escreening.ui.fragthree.FragThree"
+        android:label="@string/menu_fragthree"
+        tools:layout="@layout/fragment_three" />
+
+    <fragment
+        android:id="@+id/nav_four"
+        android:name="com.example.escreening.ui.fragfour.FragFour"
+        android:label="@string/menu_fragfour"
+        tools:layout="@layout/fragment_four" />
+
+    <fragment
+        android:id="@+id/nav_five"
+        android:name="com.example.escreening.ui.fragfive.FragFive"
+        android:label="@string/menu_fragfive"
+        tools:layout="@layout/fragment_five" />
+
+    <fragment
+        android:id="@+id/nav_six"
+        android:name="com.example.escreening.ui.fragsix.FragSix"
+        android:label="@string/menu_fragsix"
+        tools:layout="@layout/fragment_six" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.escreening.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.escreening.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
